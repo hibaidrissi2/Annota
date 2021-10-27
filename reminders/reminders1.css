@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
+/* start of navigation bar style code*/
 *{
     margin: 0px;
     padding: 0%;
@@ -49,4 +49,5 @@ nav{
     }
     
 }
+/* end of navigation bar style code*/
 
