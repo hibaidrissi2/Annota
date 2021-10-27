@@ -86,6 +86,12 @@ body{
     padding: 20px;
     height: 150px;
 }
+.box:hover{
+    transform: scale(1.1);
+    background: bisque ;
+    box-shadow: 2px 2px 2px #000;
+    z-index: 2;
+}
 .box3{
     height: 200px;
     color: black;
@@ -94,6 +100,12 @@ body{
     border-radius: 25px;
     padding: 20px;
     height: 150px;
+}
+.box3:hover{
+    transform: scale(1.1);
+    background: bisque ;
+    box-shadow: 2px 2px 2px #000;
+    z-index: 2;
 }
 
 h2{
@@ -117,3 +129,11 @@ h3{
     transform: translate(-50%, -50%);
 
 }
+.arrowright {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
