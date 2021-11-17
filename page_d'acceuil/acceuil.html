@@ -1,78 +1,138 @@
-<!DOCTYPE html> 
-<html>
-<body>
-<style>
-div.a {
-  text-align: right;
-}
-div.b {
-  text-align: center;
-}
+<!DOCTYPE html>
+<html lang="en">
 
-body {
-  background-color: pink;
-}
-div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
-}
-
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
-</style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="notes.css">
 </head>
+
 <body>
 
-
-<div class="a">
-<a target="_blank" href="img_j.jpg">
-<h1 style="font-size:20px;">log in</h1>
-<h2 style="font-size:20px;">sign up</h2>
+    <!-- Header  -->
 
 
-<div class="b">
-<h3 style="font-size:60px;">ANNOTA</h3>
-<h4 style="font-size:25px;">WELCOME BACK</h4>
+    <nav>
+
+        <div class="logo__container">
+            <div class="logo_image">
+                <a href="#">
+                    <img src="../assets/book_logo.jpg">
+                </a>
+            </div>
+            <div class="logo">
+                <h4>Annota</h4>
+
+            </div>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#">Home </a></li>
+            <li><a href="#">Notes </a></li>
+            <li><a href="#">Transcription </a></li>
+            <li><a href="#">Reminders </a></li>
+            <li><a href="#">Contact </a></li>
+        </ul>
+    </nav>
+
+    <!-- End of Header  -->
 
 
-<div class="gallery">
-  <a target="_blank" href="img_reminder.jpg">
-    <img src="Unknown-5.jpeg" alt="reminders" width="600" height="400">
-  </a>
-  <div class="desc">REMINDERS</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="img_transc.jpg">
-    <img src="img_transc.jpg" alt="transcription" width="600" height="400">
-  </a>
-  <div class="desc">TRANSCRIPTION</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="img_nnote.jpg">
-    <img src="img_nnote.jpg" alt="notes" width="600" height="400">
-  </a>
-  <div class="desc">NOTES</div>
-</div>
 
 
-</style>
+
+    <!-- main Section -->
+
+    <div class="center_container">
+        <h1 class="welcome">WELCOME BACK</h1>
+        <div class="menu">
+
+            <ul>
+                <li class="menu_item">
+                    <div class="img_title">
+                        <img src="../assets/menu_items/notes.png" alt="item3">
+                        <p class="item_title">Notes</p>
+                    </div>
+                    <img src="../assets/menu_items/arrow.png" alt="">
+                </li>
+                <li class="menu_item">
+                    <div class="img_title">
+                        <img src="../assets/menu_items/reminder.png" alt="item2">
+                        <p class="item_title">Reminders</p>
+                    </div>
+                    <img src="../assets/menu_items/arrow.png" alt="">
+                </li>
+                <li class="menu_item">
+                    <div class="img_title">
+                        <img src="../assets/menu_items/transcribe.png" alt="item3">
+                        <p class="item_title">Transcribe</p>
+                    </div>
+                    <img src="../assets/menu_items/arrow.png" alt="">
+                </li>
+            </ul>
+
+
+        </div>
+
+
+    </div>
+
+    <!-- End main Section -->
+
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>About Us</h2>
+                    <a href="/sign__up">How it works</a> <a href="/">Testimonials</a>
+                    <a href="/">Careers</a> <a href="/">Terms of Service</a>
+                </div>
+                <div class="footer__link--items">
+                    <h2>Contact Us</h2>
+                    <a href="/">Contact</a> <a href="/">Support</a>
+                    <a href="/">Destinations</a>
+                </div>
+            </div>
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>Social Media</h2>
+                    <a href="/">Instagram</a> <a href="/">Facebook</a>
+                    <a href="/">Youtube</a> <a href="/">Twitter</a>
+                </div>
+            </div>
+        </div>
+        <section class="social__media">
+            <div class="social__media--wrap">
+                <div class="footer__logo">
+                    <a href="/" id="footer__logo">Annota</a>
+                </div>
+                <p class="website__rights">© Annota 2021. All rights reserved</p>
+                <div class="social__icons">
+                    <a href="/" class="social__icon--link" target="_blank"><i class="fab fa-facebook"></i
+              ></a>
+                    <a href="/" class="social__icon--link"><i class="fab fa-instagram"></i
+              ></a>
+                    <a href="/" class="social__icon--link"><i class="fab fa-youtube"></i
+              ></a>
+                    <a href="/" class="social__icon--link"><i class="fab fa-linkedin"></i
+              ></a>
+                    <a href="/" class="social__icon--link"><i class="fab fa-twitter"></i
+              ></a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- End of Footer  -->
+
+
+
 
 
 
 </body>
+
 </html>
