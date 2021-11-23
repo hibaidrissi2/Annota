@@ -5,12 +5,13 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
 <head>
-    <link rel="stylesheet" href="reminders2.css">
+    <link rel="stylesheet" href="list_of_tasks.css">
     <title> Annota </title>
 </head>
 
 <body>
 
+    <!-- navigation bar-->
     <nav>
 
         <div class="logo__container">
@@ -33,19 +34,58 @@
             <li><a href="#">Contact </a></li>
         </ul>
     </nav>
-
-    <div class="title_add">
-        <div class="reminders_title"> Today</div>
-        <div class="add_button">
-            <img src="../assets/add.png" alt="add_button">
-        </div>
-
+    <!-- End of navigation bar-->
+    
+        <header>
+            
+            <form id="new-task-form">
+                <input 
+                    type="text" 
+                    name="new-task-input" 
+                    id="new-task-input" 
+                    placeholder="What do you have planned?" />
+                <input 
+                    type="submit"
+                    id="new-task-submit" 
+                    value="Add task" />
+            </form>
+        </header>
     </div>
+   
     <main>
-        
+		<section class="task-list">
+			<h2>Tasks</h2>
+
+			<div id="tasks">
+
+				<div class="task">
+					<div class="content">
+						<input 
+							type="text" 
+							class="text" 
+							value="A new task"
+							readonly>
+					</div>
+					<div class="actions">
+						<button class="edit">Edit</button>
+						<button class="delete">Delete</button>
+					</div>
+				</div> 
+
+			</div>
+		</section>
+	</main>
+
+	<script src="list_of_tasks.js"></script>
 
 
-    </main>
+
+
+
+
+
+
+
      <!-- Footer Section -->
      <div class="footer__container">
         <div class="footer__links">
