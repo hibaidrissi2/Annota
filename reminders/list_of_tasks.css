@@ -80,7 +80,7 @@ nav a:hover {
 * {
 	margin: 0;
 	box-sizing: border-box;
-	font-family: "Fira sans", sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 /* end of navigation bar style code*/
@@ -182,7 +182,7 @@ main {
 #tasks .task {
 	display: flex;
 	justify-content: space-between;
-	background-color: var(--grey);
+	background-color: rgb(219, 177, 184);
 	padding: 1rem;
 	border-radius: 1rem;
 	margin-bottom: 1rem;
@@ -191,15 +191,13 @@ main {
 	flex: 1 1 0%;
 }
 .task .content .text {
-	color: var(--light);
+	color: black;
 	font-size: 1.125rem;
 	width: 100%;
 	display: block;
 	transition: 0.4s;
 }
-.task .content .text:not(:read-only) {
-	color: var(--pink);
-}
+
 .task .actions {
 	display: flex;
 	margin: 0 -0.5rem;
@@ -221,33 +219,18 @@ main {
 	opacity: 0.6;
 }
 .task .actions .edit {
-	background-color: lightgreen;
+	background-color: black;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
 .task .actions .delete {
-	color: crimson;
+	color: black;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+button{
+    font-family: 'Roboto', sans-serif;
+}
 
 
 /* Footer Css */
