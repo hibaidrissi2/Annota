@@ -82,6 +82,15 @@ body {
 
 
 /* main section*/
+a:visited { 
+    text-decoration: none; 
+    color: black; 
+}
+
+a{
+    text-decoration: none;
+}
+
 
 .welcome {
     margin-top: 50px;
