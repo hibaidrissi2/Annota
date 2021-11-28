@@ -1,19 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Notes</title>
-    <link rel="stylesheet" href="notes.css">
+    <link rel="stylesheet" href="list_of_tasks.css">
+    <title> This week's Reminders </title>
 </head>
 
 <body>
 
-    <!-- Header  -->
-
-
+    <!-- navigation bar-->
     <nav>
 
         <div class="logo__container">
@@ -36,63 +34,42 @@
             <li><a href="#">Contact </a></li>
         </ul>
     </nav>
-
-    <!-- End of Header  -->
-
+    <!-- End of navigation bar-->
     <div class="title_add">
-        <div class="notes_title"> Notes</div>
-        <div class="add_button">
-            <img src="../assets/add.png" alt="add_button">
-        </div>
+        <div class="reminders_title"> This week's Reminders</div>
 
     </div>
-
-
-
-
-
-
-    <div class="gallery">
-
-        <div class="element">
-            <div class="divisor"> Classeur 1</div>
-            <ul class="notes">
-                <li>note 1</li>
-                <li>note 4</li>
-                <li>note 3</li>
-
-            </ul>
-        </div>
-        <div class="element">
-            <div class="divisor"> divisor1</div>
-            <ul class="notes">
-                <li>note 1</li>
-                <li>note 4</li>
-                <li>note 3</li>
-
-            </ul>
-        </div>
-        <div class="element">
-            <div class="divisor"> divisor1</div>
-            <ul class="notes">
-                <li>note 1</li>
-                <li>note 4</li>
-                <li>note 3</li>
-
-            </ul>
-        </div>
-
-
+        <header>
+            
+            <form id="new-task-form"  autocomplete="off">
+                <input 
+                    type="text" 
+                    name="new-task-input" 
+                    id="new-task-input" 
+                    placeholder="What do you have planned?" />
+                <input 
+                    type="submit"
+                    id="new-task-submit" 
+                    value="Add task" />
+            </form>
+        </header>
     </div>
+   
+    <main>
+		<section class="task-list">
+			<h2>Tasks</h2>
+
+			<div id="tasks">
+			</div>
+		</section>
+	</main>
+
+	<script src="list_of_tasks.js"></script>
 
 
 
-
-
-
-
-    <!-- Footer Section -->
-    <div class="footer__container">
+     <!-- Footer Section -->
+     <div class="footer__container">
         <div class="footer__links">
             <div class="footer__link--wrapper">
                 <div class="footer__link--items">
@@ -136,8 +113,6 @@
         </section>
     </div>
     <!-- End of Footer  -->
-
-
 
 
 
