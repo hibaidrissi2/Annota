@@ -80,7 +80,9 @@ body {
     align-items: center;
     font-family: 'Poppins', sans-serif;
 }
-
+h1{
+    font-size: 30px;
+}
 
 /* main section*/
 a:visited { 
@@ -95,7 +97,8 @@ a{
 
 .welcome {
     margin-top: 50px;
-    font-size: 55px;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;;
 }
 
 .center_container {
@@ -127,8 +130,11 @@ a{
 }
 
 .menu_item:hover {
+    transform: scale(1.1);
     cursor: pointer;
     background-color: #ffe4c4ff;
+    box-shadow: 2px 2px 2px #000;
+    z-index: 2;
 }
 
 .img_title {
@@ -136,6 +142,7 @@ a{
     align-items: center;
     width: 200px;
 }
+
 
 .img_title img {
     margin-right: 10px;
@@ -168,7 +175,8 @@ ul{
 	list-style: none;
 }
 .footer{
-	background-color: #24262b;
+	background-color: DimGrey;
+    font-family: 'Roboto', sans-serif;
     padding: 70px 0;
 }
 .footer-col{

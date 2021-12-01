@@ -243,7 +243,8 @@ ul{
 	list-style: none;
 }
 .footer{
-	background-color: #24262b;
+	background-color: DimGrey;
+	font-family: 'Roboto', sans-serif;
     padding: 70px 0;
 }
 .footer-col{

@@ -73,6 +73,7 @@ nav a:hover {
 
 body {
     background-color: rgb(235, 205, 231);
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     height: 100vh;
     display: inline;
@@ -211,7 +212,8 @@ ul{
 	list-style: none;
 }
 .footer{
-	background-color: #24262b;
+	background-color:DimGrey;
+    font-family: 'Roboto', sans-serif;
     padding: 70px 0;
 }
 .footer-col{
