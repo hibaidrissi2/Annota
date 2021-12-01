@@ -44,10 +44,12 @@ nav {
     display: flex;
     justify-content: space-around;
     width: 50%;
+	
 }
 
 .nav-links li {
     list-style: none;
+
 }
 
 .nav-links a {
@@ -55,6 +57,8 @@ nav {
     text-decoration: none;
     letter-spacing: 1px;
     font-weight: bold;
+	font-size: 20px;
+	
 }
 
 nav a:hover {
@@ -119,6 +123,7 @@ header {
     max-width: 800px;
 	width: 100%;
 	margin: 0 auto;
+	margin-top: 70px;
 }
 
 #new-task-form {
@@ -170,9 +175,9 @@ main {
 	padding: 1rem;
 }
 .task-list h2 {
-	font-size: 1.5rem;
-	font-weight: 300;
-	color: var(--grey);
+	font-size: 35px;
+	font-weight: 400;
+	color: black;
 	margin-bottom: 1rem;
 }
 #tasks .task {
@@ -227,7 +232,6 @@ main {
 button{
     font-family: 'Roboto', sans-serif;
 }
-
 
 /* Footer Css */
 
