@@ -13,12 +13,11 @@
 
     <!-- Header  -->
 
-
     <nav>
 
         <div class="logo__container">
             <div class="logo_image">
-                <a href="../page_d'acceuil/acceuil.html">
+                <a href="#">
                     <img src="../assets/book_logo.jpg">
                 </a>
             </div>
@@ -28,12 +27,12 @@
             </div>
         </div>
 
-        <ul class="nav-links">
+       <ul class="nav-links">
             <li><a href="../page_d'acceuil/acceuil.html">Home </a></li>
             <li><a href="../Notes/NoteDashboard.html">Notes </a></li>
             <li><a href="#">Transcription </a></li>
             <li><a href="../reminders/reminders1.html">Reminders </a></li>
-            <li><a href=../contact_us/contact_us.html>Contact us </a></li>
+            <li><a href=../contact_us/contact_us.html>Contact us</a></li>
         </ul>
     </nav>
 
@@ -42,10 +41,9 @@
     <div class="title_add">
         <div class="notes_title"> Notes</div>
         <div class="add_button">
-            <a href="NoteForm.html">
+            <a href="./NoteForm.html">
                 <img src="../assets/add.png" alt="add_button">
             </a>
-            
         </div>
 
     </div>
@@ -58,29 +56,25 @@
     <div class="gallery">
 
         <div class="element">
-            <div class="divisor"> Classeur 1</div>
-            <ul class="notes">
-                <li>note 1</li>
-                <li>note 2</li>
-                <li>note 3</li>
+            <div class="divisor"> Divisor 1:</div>
+            <ul class="notes" id="divisor1">
+
 
             </ul>
         </div>
         <div class="element">
-            <div class="divisor"> Classeur 2</div>
-            <ul class="notes">
-                <li>note 1</li>
-                <li>note 2</li>
-                <li>note 3</li>
+            <div class="divisor"> Divisor 2:</div>
+            <ul class="notes" id="divisor2">
+
+
+
 
             </ul>
         </div>
         <div class="element">
-            <div class="divisor"> Classeur 3</div>
-            <ul class="notes">
-                <li>note 1</li>
-                <li>note 2</li>
-                <li>note 3</li>
+            <div class="divisor"> Divisor 3:</div>
+            <ul class="notes" id="divisor3">
+
 
             </ul>
         </div>
@@ -95,38 +89,49 @@
 
 
     <!-- Footer Section -->
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="footer-col">
-                    <h4>company</h4>
-                    <ul>
-                        <li><a href="#">about us</a></li>
-                        <li><a href="#">our services</a></li>
-                        <li><a href="#">privacy policy</a></li>
-                        
-                    </ul>
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>About Us</h2>
+                    <a href="/sign__up">How it works</a> <a href="/">Testimonials</a>
+                    <a href="/">Careers</a> <a href="/">Terms of Service</a>
                 </div>
-                <div class="footer-col">
-                    <h4>get help</h4>
-                    <ul>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">payment options</a></li>
-                    </ul>
+                <div class="footer__link--items">
+                    <h2>Contact Us</h2>
+                    <a href="/">Contact</a> <a href="/">Support</a>
+                    <a href="/">Destinations</a>
                 </div>
-                
-                <div class="footer-col">
-                    <h4>follow us</h4>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
+            </div>
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>Social Media</h2>
+                    <a href="/">Instagram</a> <a href="/">Facebook</a>
+                    <a href="/">Youtube</a> <a href="/">Twitter</a>
                 </div>
             </div>
         </div>
-   </footer>
+        <section class="social__media">
+            <div class="social__media--wrap">
+                <div class="footer__logo">
+                    <a href="/" id="footer__logo">Annota</a>
+                </div>
+                <p class="website__rights">© Annota 2021. All rights reserved</p>
+                <div class="social__icons">
+                    <a href="/" class="social__icon--link" target="_blank"><i class="fab fa-facebook"></i
+              ></a>
+                    <a href="/" class="social__icon--link"><i class="fab fa-instagram"></i
+              ></a>
+                    <a href="/" class="social__icon--link"><i class="fab fa-youtube"></i
+              ></a>
+                    <a href="/" class="social__icon--link"><i class="fab fa-linkedin"></i
+              ></a>
+                    <a href="/" class="social__icon--link"><i class="fab fa-twitter"></i
+              ></a>
+                </div>
+            </div>
+        </section>
+    </div>
     <!-- End of Footer  -->
 
 
@@ -135,5 +140,6 @@
 
 
 </body>
+<script src="./notes.js"></script>
 
 </html>
