@@ -3,7 +3,7 @@
 body {
   margin: 0px;
   padding: 0px;
-  background-color: bisque;
+  background-color: #fef1df;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -14,9 +14,8 @@ body {
 
 form {
   padding: 30px;
-  background-color: bisque;
+  background-color: white;
   border-radius: 10px;
-  
 }
 form h1 {
   font-size: 20px;
