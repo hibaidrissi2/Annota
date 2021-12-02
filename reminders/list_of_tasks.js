@@ -2,6 +2,8 @@ window.addEventListener('load', () => {
     const form = document.querySelector("#new-task-form");
 	const input = document.querySelector("#new-task-input");
 	const list_el = document.querySelector("#tasks");
+	const ratingStars = [...document.getElementsByClassName("rating__star")];
+
 
 	form.addEventListener('submit', (e) => {
 		e.preventDefault();
@@ -58,6 +60,35 @@ window.addEventListener('load', () => {
 		task_delete_el.addEventListener('click', (e) => {
 			list_el.removeChild(task_el);
 		});
+		///////
+		function executeRating(stars) {
+			const starClassActive = "rating__star fas fa-star";
+			const starClassInactive = "rating__star far fa-star";
+			const starsLength = stars.length;
+			let i;
+			}
+			const ratingStars = [...document.getElementsByClassName("rating__star")];
+
+			function executeRating(stars) {
+			  const starClassActive = "rating__star fas fa-star";
+			  const starClassInactive = "rating__star far fa-star";
+			  const starsLength = stars.length;
+			  let i;
+			  stars.map((star) => {
+				star.onclick = () => {
+				  i = stars.indexOf(star);
+			
+				  if (star.className===starClassInactive) {
+					for (i; i >= 0; --i) stars[i].className = starClassActive;
+				  } else {
+					for (i; i < starsLength; ++i) stars[i].className = starClassInactive;
+				  }
+				};
+			  });
+			}
+			executeRating(ratingStars);
+		/////
+		 
 	});
 
     })
